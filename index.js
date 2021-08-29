@@ -28,7 +28,7 @@ module.exports.handler = (event) => {
       console.log(JSON.stringify(content));
 
       let pushParams = {
-        TableName: "PremierLeague",
+        TableName: "Cities",
         Item: {
           Date: Date().now(),
           City: content.City,

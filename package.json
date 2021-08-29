@@ -11,6 +11,7 @@
   "dependencies": {
     "aws-sdk": "^2.978.0",
     "csv-parse": "^4.16.2",
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "serverless-http": "^2.7.0"
   }
 }

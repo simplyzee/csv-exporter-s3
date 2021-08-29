@@ -12,7 +12,7 @@ const s3 = new AWS.S3();
 const client = new AWS.DynamoDB.DocumentClient();
 
 const params = {
-  Bucket: 'csv-premier-league-bucket',
+  Bucket: 'csv-cities-example-bucket',
   Key: 'cities.csv',
 };
 
